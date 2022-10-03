@@ -1,0 +1,67 @@
+* { 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    padding-left: 100px;
+    width: 100%;
+}
+.carousel-caption {
+    right: 5%;
+    text-align: right;
+    /*background-color: black;*/
+    max-width: 500px;
+    left: auto;
+    padding:5px;
+}
+#bsCarouselDark img{
+    filter: brightness(50%);
+}
+.buy_tickets {
+    color: rgba(69,131,85,255);
+    font-weight: 600;
+}
+#bsSpeakers {
+    margin-bottom: 40px;
+}
+.speakersTitle {
+    text-align: center;
+    padding: 10px;
+}
+.speakerCard:hover {
+    transition: 1.3s ease;
+    transform:scale(1.02);
+}
+.speakerCardImg {
+    height: 100%;
+    object-fit: cover;
+}
+.honoluluContainer {
+    display: flex;
+    gap: 1px;
+}
+.honoluluText {
+    color: whitesmoke;
+    width: 50%;
+    padding: 10px;
+    background-color: #353a40;
+    text-align:justify;
+}
+.speaker-btn-success-submit {
+    width: 100%;
+    background-color: #96c93e;
+    color: whitesmoke;
+}
+.speaker-btn-success-submit:hover {
+    width: 100%;
+    background-color: #072c12;
+}
+.navFooter a:hover {
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(43, 43, 83);
+}
